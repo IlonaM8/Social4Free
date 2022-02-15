@@ -3974,3 +3974,15 @@ body.is-preload #sidebar nav ul li {
   color: #f1e7e7;
   font-size: small;
 }
+
+/*green text for kryptonite*/
+.text-green {
+  font-family: "Handlee", cursive !important;
+  color: #82ec89;
+}
+
+/*red text*/
+.text-red {
+  font-family: "Handlee", cursive !important;
+  color: #f1a19b;
+}
