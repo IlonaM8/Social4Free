@@ -189,6 +189,7 @@ html {
 
 body {
   background: #312450;
+  overflow-x: hidden;
 }
 
 body.is-preload *,
@@ -3985,4 +3986,19 @@ body.is-preload #sidebar nav ul li {
 .text-red {
   font-family: "Handlee", cursive !important;
   color: #f1a19b;
+}
+
+
+/*box animation*/
+.box-animation {
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box-animation:nth-of-type(even){
+  transform: translateX(-400%);
+}
+
+.box-animation.show {
+  transform: translateX(0);
 }
