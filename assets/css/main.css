@@ -160,7 +160,19 @@ textarea {
   appearance: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Basic */
+
 
 @-ms-viewport {
   width: device-width;
@@ -3963,6 +3975,8 @@ body.is-preload #sidebar nav ul li {
   }
 }
 
+
+/*I added this:*/
 /* Text description for Ilona*/
 /*hand writting effect*/
 .hand-writting {
@@ -4002,3 +4016,4 @@ body.is-preload #sidebar nav ul li {
 .box-animation.show {
   transform: translateX(0);
 }
+ 
